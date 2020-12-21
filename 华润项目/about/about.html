@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="../js/common.js"></script>
+
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="header">
+        <div class="wrap clear top">
+            <div class="clear">
+                <h1 class="fl"><a href="../index.html"><img src="../img/logo.png" alt=""></a></h1>
+                <div class="right clear fr">
+                    <ul class="fl clear">
+                        <li class="fl"><a href="#">综合内网</a></li>
+                        <li class="fl"><a href="../group/group.html" target="_blank">华润网群</a></li>
+                        <li class="fl"><a href="#">English</a></li>
+                        <li class="fl"><a href="#">繁體版</a></li>
+                    </ul>
+                    <form action="" class="fl clear">
+                        <input type="text" class="fl">
+                        <input type="submit" value="" class="fl">
+                    </form>
+                    <div class="fl nav_right">
+                        <span>快速导航</span>
+                        <div class="list">
+                            <dl>
+                                <dt>消费者</dt>
+                                <dd><a href="#">华润简介</a>
+                                    <a href="#">品牌总览</a></dd>
+                            </dl>
+                            <dl>
+                                <dt>投资者</dt>
+                                <dd>
+                                    <a href="#">公司治理</a>
+                                    <a href="#">股票信息</a>
+                                    <a href="#">业绩报告</a>
+                                    <a href="#">投资公告</a>
+                                    <a href="#">投资者咨询</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>合作者</dt>
+                                <dd>
+                                    <a href="#">组织架构</a>
+                                    <a href="#">资质荣誉</a>
+                                    <a href="#">主营业务</a>
+                                    <a href="#">阳光采购</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>求职者</dt>
+                                <dd>
+                                    <a href="#">华润简介</a>
+                                    <a href="#">企业文化</a>
+                                    <a href="#">人才理念</a>
+                                    <a href="#">华润大学</a>
+                                    <a href="#">人才引进</a>
+                                    <a href="#">人才培养</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>传媒者</dt>
+                                <dd>
+                                    <a href="#">要闻快报</a>
+                                    <a href="#">媒体焦点</a>
+                                    <a href="#">人才理念</a>
+                                    <a href="#">媒体焦点</a>
+                                    <a href="#">视频中心</a>
+                                    <a href="#">通知公告</a>
+                                    <a href="#">华润杂志</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>华润员工</dt>
+                                <dd><a href="#">一线传声</a>
+                                    <a href="#">华润艺苑</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav clear fr" id="nav">
+                <li class="fl"><a href="../index.html" title="首页" id="on" target="_blank">首页</a></li>
+                <li class="fl"><a href="about.html" title="关于华润">关于华润</a>
+                    <div class="navsub">
+                        <ul class="clear">
+                            <li class="fl"><a href="about.html">企业概括</a></li>
+                            <li class="fl"><a href="about.html?a=1">企业文化</a></li>
+                            <li class="fl"><a href="about.html?a=2">管理之道</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../news/groupdynamics.html" title="新闻中心">新闻中心</a>
+                    <div class="navsub sub01">
+                        <ul class="clear">
+                            <li class="fl"><a href="../news/groupdynamics.html">集团动态</a></li>
+                            <li class="fl"><a href="../news/Businessdynamic.html">业务动态</a></li>
+                            <li class="fl"><a href="../news/industryinformation.html">行业资讯</a></li>
+                            <li class="fl"><a href="../news/Focusmedia.html">媒体焦点</a></li>
+                            <li class="fl"><a href="../news/notification.html">通知公告</a></li>
+                            <li class="fl"><a href="../news/Videocenter.html">视频中心</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../yewufuwu/business.html" title="主营业务">主营业务</a>
+                    <div class="navsub sub02">
+                        <ul class="clear">
+                            <li class="fl"><a href="../yewufuwu/business.html">业务领域</a></li>
+                            <li class="fl"><a href="../yewufuwu/business - 2.html">行业领域</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../yewufuwu/service.html" title="商务服务">商务服务</a>
+                    <div class="navsub sub03">
+                        <ul class="clear">
+                            <li class="fl"><a href="../yewufuwu/business.html">品牌总览</a></li>
+                            <li class="fl"><a href="../yewufuwu/business - 2.html">阳光采购</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../gunazhi/base.html" title="公司管治">公司管治</a>
+                    <div class="navsub sub04">
+                        <ul class="clear">
+                            <li class="fl"><a href="../gunazhi/base.html">管治建构</a></li>
+                            <li class="fl"><a href="../gunazhi/base - (2).html">股票信息</a></li>
+                            <li class="fl"><a href="../gunazhi/base - (3).html">业绩报告</a></li>
+                            <li class="fl"><a href="../gunazhi/base - (4).html">公司公告</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../talent/talent.html" title="人才发展">人才发展</a>
+                    <div class="navsub sub05">
+                        <ul class="clear">
+                            <li class="fl"><a href="../talent/talent.html">人才理念</a></li>
+                            <li class="fl"><a href="../talent/talent2.html">人才培养</a></li>
+                            <li class="fl"><a href="#">人才引进</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../zeren/indent.html" title="企业责任">企业责任</a>
+                    <div class="navsub sub06">
+                        <ul class="clear">
+                            <li class="fl"><a href="../zeren/indent.html">责任管理</a></li>
+                            <li class="fl"><a href="../zeren/indent 2.html">携手股东</a></li>
+                            <li class="fl"><a href="../zeren/indent 3.html">携手员工</a></li>
+                            <li class="fl"><a href="../zeren/indent 4.html">携手客户</a></li>
+                            <li class="fl"><a href="../zeren/indent 5.html">携手环境</a></li>
+                            <li class="fl"><a href="../zeren/indent 6.html">携手伙伴</a></li>
+                            <li class="fl"><a href="../zeren/indent 7.html">携手公众</a></li>
+                            <li class="fl"><a href="../zeren/indent 8.html">希望小镇</a></li>
+                            <li class="fl"><a href="../zeren/indent 9.html">活动报道</a></li>
+                            <li class="fl"><a href="../zeren/indent 10.html">社会责任报告</a></li>
+                            <li class="fl"><a href="../zeren/indent 11.html">荣誉奖项</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl"><a href="../xinxi/infor (1).html" title="信息公开">信息公开</a>
+                    <div class="navsub sub07">
+                        <ul class="clear">
+                            <li class="fl"><a href="../xinxi/infor (1).html">公司治理</a></li>
+                            <li class="fl"><a href="../xinxi/infor (2).html">改革重组</a></li>
+                            <li class="fl"><a href="../xinxi/infor (3).html">发展成果</a></li>
+                            <li class="fl"><a href="../xinxi/infor (4).html">人事变动</a></li>
+                            <li class="fl"><a href="../xinxi/infor (5).html">负责人薪酬</a></li>
+                            <li class="fl"><a href="../xinxi/infor (6).html">阳光宣言</a></li>
+                            <li class="fl"><a href="../xinxi/infor (7).html">商业行为守则</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navsubbg" id="navbg"></div>
+    </div>
+
+    <!-- 头部结束 -->
+    <script>
+        var liObj = document.getElementById("nav").getElementsByTagName("li");
+        var divObj = document.getElementById("navbg");
+        var onObj = document.getElementById("on")
+        //mouseenter 鼠标移入
+        for (var i = 0; i < liObj.length; i++) {
+            liObj[i].onmouseenter = function () {
+                divObj.style.display = "block"
+            }
+            liObj[0].onmouseenter = function () {
+                divObj.style.display = "none"
+            }
+            liObj[i].onmouseleave = function () {
+                divObj.style.display = "none"
+            }
+        }
+    </script>
+
+
+    <!-- 主体开始 -->
+    <div class="newsbg"></div>
+    <div class="main">
+        <div id="news" class="clear">
+            <div class="menu fl">
+                <div class="title">
+                    <h2>关于华润</h2>
+                </div>
+                <ul class="clear fl" id="tab_tit">
+                    <li class="tit active">
+                        <a href="#" class="tit_a">企业概括</a>
+                        <ul id="sub_tit">
+                            <li id="intr">华润简介</li>
+                            <li>公司管理层</li>
+                            <li>组织架构</li>
+                            <li>经营业绩</li>
+                            <li>发展历程</li>
+                            <li style="border-bottom: none;">资质荣誉</li>
+                        </ul>
+                    </li>
+                    <li class="tit"><a href="#" class="tit_a" id="culture"> 企业文化</a></li>
+                    <li class="tit"><a href="#" class="tit_a" id="ment"> 管理之道</a></li>
+                </ul>
+            </div>
+            <div class="tab_con fr">
+                <div class="con">
+                    <div class="title clear">
+                        <h2 class="fl">华润简介</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="about.html">关于华润</a> -
+                            <a href="about.html">企业概括</a> -
+                            <a href="about.html">华润简介</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p class="fl" style="margin: 0 20px 10px 0;">
+                            <img src="images/hr.jpg" alt="" title="华润" width="270px" height="405px">
+                        </p>
+                        <p>
+                            华润的前身是于1938年在香港成立的“联和行”。1948年联和进出口公司改组更名为华润公司。1952年隶属关系由中共中央办公厅转为中央贸易部（现为商务部）。1983年改组成立华润（集团）有限公司。1999年12月，与外经贸部脱钩，列为中央管理。2003年归属国务院国资委直接监管，被列为国有重点骨干企业。
+                        </p>
+                        <p>
+                            1954年华润公司成为中国各进出口公司在香港总代理。在这一时期，华润的主要任务是组织对港出口，为内地进口重要物资，保证香港市场供应，贸易额曾占全国外贸总额的三分之一。1983年华润集团成立后，因应外贸体制改革的形势，企业逐渐从综合性贸易公司转型为以实业为核心的多元化控股企业集团。
+                        </p>
+                        <p>
+                            2000年以来，经过两次“再造华润”，华润奠定了目前的业务格局和经营规模，涵盖大消费、大健康、城市建设与运营、能源服务、科技与金融五大业务领域，下设7大战略业务单元、19家一级利润中心，实体企业约2000家，在职员工42万人。直属企业中有7家在港上市，其中华润置地位列香港恒生指数成份股。
+                        </p>
+                        <p>
+                            华润以“引领商业进步，共创美好生活”为使命，通过不断创新生意模式，打造产品和服务品牌，有效地促进了产业发展，为提高大众的生活品质作出了应有的贡献。目前，华润零售、啤酒、燃气、医药的经营规模在全国位居前列。电力、水泥业务的经营业绩、经营效率在行业中表现突出。华润置地是中国内地实力雄厚的综合地产开发商之一。雪花啤酒、怡宝水、华润万家、万象城、999、双鹤、东阿阿胶等是享誉全国的知名品牌。
+                        </p>
+                        <p>
+                            为更好地适应多元化企业的发展，集团围绕发展模式、组织架构、公司治理等方面进行了一系列重大改革，在并购整合、企业重组、利用资本市场等方面形成了丰富经验，在战略管理、领导力发展、财务价值创造等总部建设方面建立了适合自身特色的管理模式。
+                        </p>
+                        <p>
+                            目前，集团正在实施“十三五”发展战略，按照“做实、做强、做大、做好、做长”的发展方式，依托实业发展、资本运营的“双擎”之力，借助“国际化、+互联网”的“两翼”之势，通过提升资产质量、优化资本结构、调整产业结构、布局全球市场、开展研发创新、提升智能化水平六大举措，实现“跑赢大市、转型升级”的目标，为股东创造效益、为社会创造价值、为员工创造成长空间，成为受大众信赖和喜爱的全球化企业。
+                        </p>
+                    </div>
+                </div>
+                <div class="con">
+                    <div class="title clear">
+                        <h2 class="fl">企业文化</h2>
+                        <div class="fr right">
+                            <a href="../index.html" target="_blank">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业文化</a>
+                        </div>
+                    </div>
+                    <div class="editor">
+                        <div class="video">
+                            <video src="images/about.mp4" width="700" height="295" controls
+                                poster="images/video-mask.jpg" width="700" height="295"></video>
+                            <p>如视频无法播放，请移步google/火狐/ ie9以上的浏览器观看视频，谢谢。</p>
+                            <p>华润集团企业文化宣传片</p>
+                        </div>
+                        <div class="editor_main">
+                            <div class="conts item">
+                                <p>华润是拥有光荣历史的红色央企。八十多年的风雨历程、几代人的艰苦创业为华润积淀了优秀的企业文化，铸就了独特的企业之魂。这是华润宝贵的精神财富，是推动华润事业不断发展壮大的内在动力。
+                                </p>
+                                <p>今天，面对企业内外部环境发生的深刻变化，华润积极顺应经济新常态，贯彻中央提出的“创新、协调、绿色、开放、共享”发展理念，秉持“守正出新、正道致远”的重要理念，以“传承红色基因、谨守商业本分、彰显制度尊严、坚持诚实守信”为指导方针，密切配合华润集团“十三五”战略方向，对华润文化进行了深刻反思和系统梳理，在广泛征求经理人和员工意见的基础上，形成了新时期的华润文化理念体系。
+                                </p>
+                                <p>
+                                    新的华润文化理念体系包括：使命、愿景、价值观、发展理念和企业精神五大要素。其中，使命回答的是“我们为什么而存在”的问题，体现了华润作为央企的崇高责任，是华润持续发展的内在驱动力；愿景回答的是“我们要去哪里”的问题，描绘了全体华润人为之奋斗的理想蓝图，是华润为履行庄严使命必须树立的追求；价值观回答的是“我们应该怎样做”的问题，是华润文化的核心，是全体华润必须共同信奉和始终坚守的价值标准和基本信念；发展理念回答的是“我们遵循何种法则”，是指导华润经营管理活动的总体原则，是为履行使命、实现愿景而必须遵循的经营哲学；企业精神回答的是“我们应具有什么样的内心态度和行为风格”的问题，是全体华润人应该具备的团队气质和精神风貌，是华润价值观在员工思想行为层面的延伸。
+                                </p>
+                            </div>
+                            <div class="item img">
+                                <h3>“十三五”华润文化理念体系图</h3>
+                                <img src="images/img.jpg" alt="" width="750" height="319">
+                            </div>
+                            <div class="item mission">
+                                <div class="title">
+                                    <span>华润使命</span>
+                                </div>
+                                <div class="mission_main conts">
+                                    <h3>引领商业进步，共创美好生活</h3>
+                                    <p>这是华润作为商业机构存在的意义和动机，也是华润必须承担的责任和义务。将企业使命与商业进步和社会发展紧紧连在一起，表达了华润在促进整个社会的文明与进步中求得企业发展的价值取向，体现了华润人的崇高追求。
+                                    </p>
+                                    <p>商业进步是推动国家富强、社会发展的重要动力，美好生活是人们的殷切向往。作为具有光荣历史的红色央企，华润曾在不同历史时期都承担了国家使命，始终与国家和民族的命运休戚与共，为民族振兴和社会发展作出了独特的贡献。展望未来，华润将通过持续的商业成功，努力打造投资者满意、员工自豪、大众信赖的优秀企业，在促进社会进步、实现民族复兴的征途中做出新的贡献。
+                                    </p>
+                                    <p>华润将从以下四个方面，发挥表率作用，引领商业进步：</p>
+                                    <p>
+                                        恪守商业伦理，维护市场规则，引领构建良好的商业生态；<br>
+                                        转变发展方式，创新商业模式，为中国企业提供成功样本；<br>
+                                        履行社会责任，承担央企使命，努力以实际行动回报社会；<br>
+                                        贡献商业智慧，分享最佳实践，为社会进步提供思想源泉。
+                                    </p>
+                                    <p>华润将携手客户、股东、员工、伙伴、社会和环境，共创美好生活：</p>
+                                    <p>
+                                        携手客户，通过提供优质产品与服务，不断超越客户期望，持续创造客户价值； <br>
+                                        携手股东，通过依法依规治企，提高治理能力与业绩水平，实现企业稳健发展； <br>
+                                        携手员工，通过权益保护与人文关怀，帮助员工实现价值，提升员工幸福指数；<br>
+                                        携手伙伴，通过恪守商业道德，营造良好商业环境，开创合作共赢新局；<br>
+                                        携手社会，通过响应国家号召，投身公益，弘扬主流价值，促进社会和谐发展；<br>
+                                        携手环境，通过严守环保法规，节能减排，发展循环经济，建设绿色生态文明。
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="item vision">
+                                <div class="title">
+                                    <span>企业愿景</span>
+                                </div>
+                                <div class="vision_main conts">
+                                    <h3>成为大众信赖和喜爱的全球化企业</h3>
+                                    <p>在八十多年的风雨历程中，华润顺应时代潮流和历史趋势，上下求索、积极求变，抓住机遇、不断转型，企业始终保持勃勃生机，建立了良好口碑和卓越商誉。在新的历史时期，华润顺势应势、志存高远，以“成为大众信赖和喜爱的全球化企业”作为自己的理想蓝图。
+                                    </p>
+                                    <p>大众信赖和喜爱：</p>
+                                    <p>华润不仅要使企业的产品服务受到客户青睐与喜爱、企业的业绩表现令股东放心和满意、企业的文化氛围让员工快乐和自豪，而且积极履行社会责任，受到社会公众喜爱、认可和赞赏，成为同行乃至企业界竞相效仿的对象；不仅为股东和客户创造卓越价值，而且还为社会、环境创造令人满意的价值。
+                                    </p>
+                                    <p>全球化企业：</p>
+                                    <p>以全球化企业为愿景，要求华润努力跻身于国际竞争的大舞台，以全球视野配置资源、拓展市场，以成熟和自信，在自由、开放的经济体系中赢得商业成功。华润旗下产业要努力建立行业领导地位，拥有国际水平的人才团队、管理水平、运营效率、企业文化和产品品牌，建立国际竞争力、实现全球化发展。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="values item">
+                                <div class="title">
+                                    <span>价值观</span>
+                                </div>
+                                <div class="values_main conts">
+                                    <h3>诚实守信，业绩导向，以人为本，创新发展</h3>
+                                    <p>诚实守信是华润的核心价值观，是华润建基立业的根本；业绩导向是华润发展壮大的支撑；以人为本是华润价值创造的宗旨；创新发展是华润迎接挑战的动力。</p>
+                                    <strong>诚实守信：</strong>
+                                    <p>
+                                        忠诚爱国，崇尚公平正义，敬畏法纪、尊重制度，坚守法律和道德底线。<br>
+                                        遵守商业伦理与契约精神，维护利益相关方合法权益，信守承诺，知行合一。<br>
+                                        倡导真诚坦率的人际沟通，不唯上、不专断，构建简单透明的管理氛围。<br>
+                                    </p>
+                                    <strong>业绩导向：</strong>
+                                    <p>
+                                        华润作为商业机构，业绩是企业生存和发展的生命线，必须坚持以实力去竞争、以付出求回报、用业绩来说话，才能持续为社会创造价值。<br>
+                                        华润强调业绩的“均好性”，业绩不仅表现在经营规模、发展速度上，还要反映于组织能力的提升、管理模式的创新，以及优秀人才的培养等各个方面，是全面、均衡、高质量的业绩。
+                                        <br>
+                                        没有增长的业务不是好业务，没有业绩的团队不是好团队。业绩是华润选人、用人、评价人、激励人的重要标准。<br>
+                                    </p>
+                                    <strong>以人为本：</strong>
+                                    <p>
+                                        尊重人的价值，开发人的潜能，升华人的心灵，从生活、情感和成长环节关爱和善待员工、为员工构建价值实现的平台，共享发展成果。<br>
+                                        顺应并满足人性的合理需求，倡导积极向上、绿色健康的生活方式，为客户提供优质的产品与服务。<br>
+                                        心怀感恩，谦卑行事，强调均衡与可持续发展，追求多方合作共赢以及人与自然、社会的和谐共生。
+                                    </p>
+                                    <strong>创新发展：</strong>
+                                    <p>
+                                        大力培育创新体系，健全激励机制、约束机制和容错机制，营造开放包容的氛围，持续提升创新能力。<br>
+                                        顺时应势，主动变革。坚持客户导向，勇于颠覆自我，不断寻求商业模式、技术、管理、产品与服务的全新突破。<br>
+                                        鼓励创新思维，坚持持续学习，善于借鉴先进模式、经验与方法，实现创新在基层，创新在岗位，人人创新、全员创新。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item idea">
+                                <div class="title">
+                                    <span>发展理念</span>
+                                </div>
+                                <div class="idea_main conts">
+                                    <h3>做实、做强、做大、做好、做长（5M原则）</h3>
+                                    <p>
+                                        顺应经济新常态，需要华润积极转变发展方式，实现内涵式增长。为此，华润要求各级单位通过创新驱动、结构优化、产业升级、提升产品和服务质量、提高效率和效益等路径，努力实现“做实、做强、做大、做好、做长”的发展理念。
+                                    </p>
+                                    <p>
+                                        做实是华润安身立命之本，做强是做大的基础。不管是做实、做强，还是做大，核心因素应立足于努力满足利益相关方的需要，不断创造价值，提升效率效益。做好关系着客户的认可、社会的尊重、形象的树立，是做强的外在表现。“做实、做强、做大、做好”的根本目的，是为了实现“做长”，各项工作都要以此为指导，为“做长”夯实基础、建立机制、营造环境，确保可持续发展。
+                                    </p>
+                                    <strong>做实：</strong>
+                                    <p>
+                                        做实对利益相关方的诚信承诺，守住依法合规底线；做实基础管控体系，落实制度文化，实现管理决策的规范化、透明化、专业化；做实商业模式，提升发展质量和效益。
+                                    </p>
+                                    <strong>做强：</strong>
+                                    <p>
+                                        在关键技术经济指标、资本回报水平、运行效率、产品竞争力、品牌影响力以及资本市场地位等方面优于同行，引领行业进步。不仅要做到在业务板块整体层面上好，还要做到业务板块下每个项目、每家公司都能达到行业优秀水平。
+                                    </p>
+                                    <strong>做大：</strong>
+                                    <p>
+                                        在做强的同时，努力争取在经营规模、市场份额等方面达到行业的领先水平，以至对行业有重大的影响。
+                                    </p>
+                                    <strong>做好：</strong>
+                                    <p>
+                                        拥有卓越的团队、优异的业绩、一流的产品和服务、较高的健康安全环保水平、良好的社会责任担当和声誉口碑，深受社会尊重，被客户、股东、员工所高度认同。
+                                    </p>
+                                    <strong>做长：</strong>
+                                    <p>
+                                        建立核心竞争力、不断巩固市场优势，形成具有长久生命力的商业模式，最终要建立良好的内部运行机制和外部生态环境，支持可持续发展的长远目标的实现。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item spirit">
+                                <div class="title">
+                                    <span>企业精神</span>
+                                </div>
+                                <div class="spirit_main conts">
+                                    <h3>务实 专业 协同 奉献</h3>
+                                    <p>
+                                        华润从央企使命中，汲取了务实精神；从市场竞争中，汲取了专业精神；从团队建设中，汲取了协同精神；从红色基因中，汲取了奉献精神。这是全体华润人所应共有的精神风貌和行为风格。
+                                    </p>
+                                    <strong>务实是一种工作作风，体现了华润对实干、理性、坦荡的关注，它要求我们：</strong>
+                                    <p>
+                                        关注基础，脚踏实地，崇尚实干，讲求实效。<br>
+                                        注重实践，尊重科学，实事求是，理性客观。<br>
+                                        胸怀坦荡，处事公正，说到做到，表里如一。
+                                    </p>
+                                    <strong>专业是一种工作态度，体现了华润对精益、高效和卓越的关注，它要求我们：</strong>
+                                    <p>
+                                        精通本职，胜任岗位，严谨细致，精益求精。<br>
+                                        热爱工作，全情投入，高效优质，引领创新。<br>
+                                        行动学习，持续进步，超越自我，追求卓越。
+                                    </p>
+                                    <strong>协同是一种组织能力，体现了华润对团队、包容和共赢的关注，它要求我们：</strong>
+                                    <p>
+                                        融入团队，乐于分享，相互信任，荣辱与共。<br>
+                                        开放包容，尊重差异，以诚相待，成人之美。<br>
+                                        彼此欣赏，简单透明，协作互补，合作共赢。
+                                    </p>
+                                    <strong>奉献是一种精神境界，体现了华润对敬业、担当、激情的关注，它要求我们：</strong>
+                                    <p>
+                                        传承文化，牢记使命，忠于职守，爱岗敬业。<br>
+                                        大局为重，勇于担当，组织为先，不求私利。<br>
+                                        阳光向上，拼搏进取，以身作则，永葆激情。
+                                    </p>
+                                    <p>除上述五大文化要素外，我们还将以下内容作为华润文化宣传的标语口号，一并在内外宣传中使用:</p>
+                                    <p>
+                                        <strong>
+                                            守正出新，正道致远 <br>
+                                            立品如山，行道如水 <br>
+                                            与您携手，改变生活 <br>
+                                            取予有道，润泽中华
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        新的华润文化理念体系是华润人立足于企业的成长历史，积极应对环境变化、主动迎接未来挑战的思考成果；是集团各级单位开展经营管理、完善规章制度、制定行为规范、履行社会责任、推广品牌形象的重要指针；是全体华润员工必须全面领会，并从思想上认同、在行为上遵守的纲领性文件；是在全集团统一思想、凝聚共识、激发斗志、鼓舞士气的精神旗帜。
+                                    </p>
+                                    <p>
+                                        展望未来，我们相信，只要全体华润人始终胸怀“引领商业进步，共创美好生活”的庄严使命，矢志恪守“诚实守信、业绩导向、以人为本、创新发展”的价值观，严格遵循“做实、做强、做大、做好、做长”的发展理念，大力弘扬“务实、专业、协同、奉献”的企业精神，就一定能够早日达成“大众信赖和喜爱的全球化企业”的宏伟愿景，实现基业常青，打造百年老店。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item logo">
+                                <div class="title">
+                                    <span>企业标志</span>
+                                </div>
+                                <div class="conts clear">
+                                    <div class="pic fl">
+                                        <img src="images/culsys_logo.gif" alt="">
+                                    </div>
+                                    <p>
+                                        华润蕴含“中华大地，雨露滋润”的美好寓意，华润企业标志的设计意念源自盛唐书法宗师颜真卿的书法。颜体的“华”字中间由四个“人”字组成，由此启发而创作的华润标志，表明华润与悠久灿烂的中国文化一脉相承。四个“人”字又像一组向上的箭头，寓示着华润的事业蒸蒸日上；华润标志中琥珀黄色正方形象征大地，寓意华润心系祖国，扎根于中华沃土。白色的“人”字从琥珀黄的底色中鲜亮地跳出来，代表华润人勇于面对挑战，积极创新思维。华润企业标志承载着企业的无形资产，是企业综合信息传递的媒介。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="con">
+                    <div class="title clear">
+                        <h2 class="fl">管理之道</h2>
+                        <div class="fr right">
+                            <a href="../index.html" target="_blank">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">管理之道</a>
+                        </div>
+                    </div>
+                    <div class="editor">
+                        <div class="editor_main ">
+                            <div class="item">
+                                <div class="title">
+                                    <span>华润6S管理体系</span>
+                                </div>
+                                <div class="conts">
+                                    <p>
+                                        6S是战略规划体系、业绩评价体系、内部审计体系、经理人考评体系、管理报告体系和商业计划体系等6个System的简称，是华润从自身特点出发探索的多元化控股企业管理模式，是华润的核心管理体系。6S使华润集团多元化企业管理模式更科学有序，整体管理架构变得更加扁平，管理层可以及时、准确地获取管理信息，有力地促进了总部战略管理能力的提升和战略导向型组织的形成。
+                                    </p>
+                                    <p style="text-align: center;"><img src="images/gl.gif" alt="" width="522"
+                                            height="569"></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="title">
+                                    <span>
+                                        华润5C价值型财务管理体系
+                                    </span>
+                                </div>
+                                <div class="conts">
+                                    <p>
+                                        5C体系是以资本、资金、资产管理为主线，以资本结构（Capital Structure）、现金创造（Cash Generation）、现金管理（Cash
+                                        Management）、资金筹集（Capital Raising）和资产配置（Capital
+                                        Allocation）为核心的价值型财务管理体系。5C体系内在的逻辑循环：公司在价值创造过程中，首先考虑资本来源、资本成本和结构比例，设定公司资本结构；通过经营活动将资本转化为有竞争力的产品或服务，实现现金创造，获得持续增长所需的内部资金来源；通过付息、派息、现金周转与资金集中等进行现金管理；通过与资产结构相适配的资金筹集安排，获得持续增长所需外部资金来源，并通过资产配置活动动态调整资产组合以实现公司价值持续增长，从而形成价值创造的完整循环。
+                                    </p>
+                                    <p style="text-align: center;">
+                                        <img src="images/gl2.gif" alt="">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_con">
+                    <div class="title clear">
+                        <h2 class="fl">华润简介</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业概括</a> -
+                            <a href="#">华润简介</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p class="fl" style="margin: 0 20px 10px 0;">
+                            <img src="images/hr.jpg" alt="" title="华润" width="270px" height="405px">
+                        </p>
+                        <p>
+                            华润的前身是于1938年在香港成立的“联和行”。1948年联和进出口公司改组更名为华润公司。1952年隶属关系由中共中央办公厅转为中央贸易部（现为商务部）。1983年改组成立华润（集团）有限公司。1999年12月，与外经贸部脱钩，列为中央管理。2003年归属国务院国资委直接监管，被列为国有重点骨干企业。
+                        </p>
+                        <p>
+                            1954年华润公司成为中国各进出口公司在香港总代理。在这一时期，华润的主要任务是组织对港出口，为内地进口重要物资，保证香港市场供应，贸易额曾占全国外贸总额的三分之一。1983年华润集团成立后，因应外贸体制改革的形势，企业逐渐从综合性贸易公司转型为以实业为核心的多元化控股企业集团。
+                        </p>
+                        <p>
+                            2000年以来，经过两次“再造华润”，华润奠定了目前的业务格局和经营规模，涵盖大消费、大健康、城市建设与运营、能源服务、科技与金融五大业务领域，下设7大战略业务单元、19家一级利润中心，实体企业约2000家，在职员工42万人。直属企业中有7家在港上市，其中华润置地位列香港恒生指数成份股。
+                        </p>
+                        <p>
+                            华润以“引领商业进步，共创美好生活”为使命，通过不断创新生意模式，打造产品和服务品牌，有效地促进了产业发展，为提高大众的生活品质作出了应有的贡献。目前，华润零售、啤酒、燃气、医药的经营规模在全国位居前列。电力、水泥业务的经营业绩、经营效率在行业中表现突出。华润置地是中国内地实力雄厚的综合地产开发商之一。雪花啤酒、怡宝水、华润万家、万象城、999、双鹤、东阿阿胶等是享誉全国的知名品牌。
+                        </p>
+                        <p>
+                            为更好地适应多元化企业的发展，集团围绕发展模式、组织架构、公司治理等方面进行了一系列重大改革，在并购整合、企业重组、利用资本市场等方面形成了丰富经验，在战略管理、领导力发展、财务价值创造等总部建设方面建立了适合自身特色的管理模式。
+                        </p>
+                        <p>
+                            目前，集团正在实施“十三五”发展战略，按照“做实、做强、做大、做好、做长”的发展方式，依托实业发展、资本运营的“双擎”之力，借助“国际化、+互联网”的“两翼”之势，通过提升资产质量、优化资本结构、调整产业结构、布局全球市场、开展研发创新、提升智能化水平六大举措，实现“跑赢大市、转型升级”的目标，为股东创造效益、为社会创造价值、为员工创造成长空间，成为受大众信赖和喜爱的全球化企业。
+                        </p>
+                    </div>
+                </div>
+                <div class="sub_con">
+                    <div class="title clear">
+                        <h2 class="fl">董事会</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业概括</a> -
+                            <a href="#">公司管理层</a> -
+                            <a href="#">董事会</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="clear">
+                            <img src="images/img1.png" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>王祥明先生</h3>
+                                <p>
+                                    王先生为华润集团董事长，兼任华润置地有限公司董事会主席。曾任中国建筑集团有限公司董事、总经理，中国建筑股份有限公司总裁、董事。王先生为教授级高级工程师、全国劳动模范、享受国务院政府特殊津贴专家，持有南京工业大学工业与民用建筑专业本科学历，于二零一九年加入本集团，曾任集团董事、总经理。
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img2.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>马璐女士</h3>
+                                <p>
+                                    马女士为华润集团董事，曾任国家电力投资集团公司副总经理、国家核电技术有限公司副总经理、中国技术进出口总公司副总经理。马女士持有北京理工大学工学博士学位及美国德克萨斯州阿灵顿商学院工商管理硕士学位，于二零一六年加入本集团。
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img3.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>潘福先生</h3>
+                                <p>
+                                    潘先生为华润集团董事，曾任南方电网有限责任公司计划发展部主任、南方航空股份有限公司监事会主席。潘先生持有重庆大学工学硕士学位，于二零一九年加入本集团。
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img4.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>乔保平先生</h3>
+                                <p>
+                                    乔先生为华润集团外部董事，亦任中国核工业集团有限公司外部董事。曾任国家能源集团董事长、中国国电集团董事长。乔先生系南开大学经济学专业毕业，硕士学位，于二〇二〇年加入本集团。
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img5.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3> 罗范椒芬女士 </h3>
+                                <p>
+                                    罗范女士为华润集团外部董事、香港特别行政区行政会议成员，亦担任中电控股有限公司、中国联通（香港）有限公司、南旋控股有限公司、五矿地产有限公司独立非执行董事。曾任香港特別行政区全国人大代表、香港科技园公司董事会主席。罗范女士持有香港大学荣誉理学学士学位、哈佛大学公共行政及香港中文大学教育硕士学位，于二零一六年加入本集团。 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img6.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>徐企颖先生</h3>
+                                <p>
+                                    徐先生为华润集团外部董事。曾任国家开发银行首席风险官、武汉分行行长、评审一局局长、企业局局长，中国建设银行监察室副主任、信贷部副主任。徐先生持有辽宁财经学院管理学学士学位，高级经济师。于二零一六年加入本集团。 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img7.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>王政先生</h3>
+                                <p>
+                                    王先生为华润集团外部董事，亦任中国航天科技集团有限公司外部董事。曾任中国电子科技集团副总经理、首席信息官、科技部主任、电子科学研究院副院长。王先生为高级工程师，持有南京理工大学无线电技术专业学士学位、杭州电子科技大学电子工程硕士学位及北京理工大学通信与信息系统博士学位，于二〇二〇年加入本集团。 
+                                </p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <img src="images/img8.jpg" alt="" class="fl">
+                            <div style="width: 570px;" class="fr">
+                                <h3>吴献东先生</h3>
+                                <p>
+                                    吴先生为华润集团外部董事，亦任中国船舶集团、中国石油化工集团外部董事。曾任中国航空工业集团公司副总经理、中国航空科技工业股份有限公司总经理。吴先生持有北京航天航空大学制造工程学士学位和俄罗斯莫斯科航空学院航空宇航生产组织与管理博士学位，于二〇二〇年加入本集团。 
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sub_con">
+                    <div class="title clear">
+                        <h2 class="fl">组织架构</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业概括</a> -
+                            <a href="#">组织架构</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img src="images/jiagou.jpg" alt="">
+                    </div>
+                </div>
+                <div class="sub_con">
+                    <div class="title clear">
+                        <h2 class="fl">经营业绩</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业概括</a> -
+                            <a href="#">经营业绩</a>
+                        </div>
+                    </div>
+                    <div class="main">
+                        <p>&nbsp;</p>
+                        <p>2019年，华润集团实现营业额6,546亿元人民币（下同），同比增长7.6%；净利润511亿元，同比增长13.2%。截止2019年底，集团总资产16,180亿元，较上年底增长12.4%。</p>
+                        <p>&nbsp;</p>
+                        <p>华润集团获国务院国资委 2019 年度中央企业负责人经营业绩考核 A 级企业。自国资委对中央企业实施经营业绩考核以来，华润集团第14次获得年度考核A级。</p>
+                        <p>&nbsp;</p>
+                        <p>
+                            在2020年《财富》杂志公布的全球500强排名中，华润集团位列第79位。
+                        </p>
+                    </div>
+                </div>
+                <div class="sub_con">
+                    <div class="title clear">
+                        <h2 class="fl">发展历程</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业概括</a> -
+                            <a href="#">发展历程</a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <ul class="clear">
+                            <li class="fl">
+                                <p>1938-1952</p>
+                                <div>
+                                    从"联和行"到 "华润公司"
+                                </div>
+                            </li>
+                            <li class="fl">
+                                <p>1952-1983</p>
+                                <div>
+                                    新中国与世界贸易沟通的桥梁 
+                                </div>
+                            </li>
+                            <li class="fl">
+                                <p>1983-2000</p>
+                                <div>
+                                    实业化、多元化发展
+                                </div>
+                            </li>
+                            <li class="fl">
+                                <p>2000-2015</p>
+                                <div>
+                                    集团多元化、利润中心专业化
+                                </div>
+                            </li>
+                            <li class="fl">
+                                <p>2015-未来</p>
+                                <div>走向全球化</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub_con">
+                    <div class="title clear">
+                        <h2 class="fl">资质荣誉</h2>
+                        <div class="fr right">
+                            <a href="../index.html">首页</a> -
+                            <a href="#">关于华润</a> -
+                            <a href="#">企业概括</a> -
+                            <a href="#">经营业绩</a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <table>
+                            <tr>
+                                <th width="330">名称</th>
+                                <th width="220">获奖单位/项目</th>
+                                <th width="220">授予单位</th>
+                            </tr>
+                            <tr>
+                                <td>世界500强企业第80位</td>
+                                <td>华润集团</td>
+                                <td>《财富》杂志</td>
+                            </tr>
+                            <tr>
+                                <td>中央企业经营业绩考核工作先进单位</td>
+                                <td>华润集团</td>
+                                <td>国务院国资委</td>
+                            </tr>
+                            <tr>
+                                <td>中央企业法制工作年度考评A级</td>
+                                <td>华润集团</td>
+                                <td>国务院国资委</td>
+                            </tr>
+                            <tr>
+                                <td>全国“六五”普法中期先进集体</td>
+                                <td>华润集团</td>
+                                <td>全国普法办公室</td>
+                            </tr>
+                            <tr>
+                                <td>央企信息化水平A企业</td>
+                                <td>华润集团</td>
+                                <td>国务院国资委</td>
+                            </tr>
+                            <tr>
+                                <td>华润信息化管理之道模型图著作权登记</td>
+                                <td>华润集团</td>
+                                <td>国家版权局</td>
+                            </tr>
+                            <tr>
+                                <td>中央企业档案工作A级企业</td>
+                                <td>华润集团</td>
+                                <td>国务院国资委</td>
+                            </tr>
+                            <tr>
+                                <td>华润慈善基金会获评2013年度全国5A级基金会</td>
+                                <td>华润慈善基金会</td>
+                                <td>国家民政部</td>
+                            </tr>
+                            <tr>
+                                <td>中国社会责任卓越企业<br>
+                                    中国社会责任百强企业排名第六
+                                </td>
+                                <td>华润集团</td>
+                                <td>中国社科院</td>
+                            </tr>
+                            <tr>
+                                <td>中国最佳企业公民</td>
+                                <td>华润集团</td>
+                                <td>中国企业公民论坛</td>
+                            </tr>
+                            <tr>
+                                <td>中国企业社会责任榜优秀实践奖</td>
+                                <td>华润集团</td>
+                                <td>第一财经传媒</td>
+                            </tr>
+                            <tr>
+                                <td>香港绿色企业大奖</td>
+                                <td>华润集团</td>
+                                <td>香港环保促进会</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体结束 -->
+    <script src="../js/selectCard.js"></script>
+    <!-- footer开始 -->
+    <div class="footer wrap">
+        <ul>
+            <li><a href="#" title="网站地图">网站地图</a> <span>|</span></li>
+            <li><a href="#" title="隐私安全">隐私安全</a> <span>|</span></li>
+            <li><a href="#" title="站外导航">站外导航</a> <span>|</span></li>
+            <li><a href="#" title="版权所有">版权所有</a> <span>|</span></li>
+            <li><a href="#" title="常见问题">常见问题</a> <span>|</span></li>
+            <li><a href="#" title="联系方式">联系方式</a> <span>|</span></li>
+            <li><a href="#" title="RSS订阅">RSS订阅</a></li>
+        </ul>
+        <p>Copyright © 华润（集团）有限公司&nbsp;&nbsp;　<a href="#">京ICP备05045648号 &nbsp;&nbsp; 技术支持：<a href="#">润联科技</a></p>
+    </div>
+    <!-- footer结束 -->
+</body>
+
+</html>

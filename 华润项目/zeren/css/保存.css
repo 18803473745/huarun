@@ -1,0 +1,115 @@
+.nrbox .nr ul li{
+    line-height: 35px;
+    width: 170px;
+    border-bottom: 1px solid #dbd4cd;
+    background: url(../img/qyzelib.gif) no-repeat 15px center;
+    position: relative;
+    /* display: none; */
+}
+.nrbox .nr ul li:first-of-type{
+    margin-top: 20px;
+}
+.nrbox .nr ul li>a{
+    font-size: 14px;
+    color: #000;
+    padding-left: 28px;
+}
+.nrbox .nr ul li:hover{
+    background: url(../img/qyzejgb.gif) no-repeat 15px center;
+    background-color: #f99d33;
+}
+.nrbox .nr ul li:hover>a{
+    color: #fff;
+}
+.nrbox .nr ul li .ynr{
+    width: 755px;
+    position: absolute;
+    display: block;
+    left: 245px;
+    top: -73px;
+    border-bottom: 1px solid #dbd4cd;
+    display: none;
+    overflow: hidden;
+}
+/* 经过出现 */
+/* 第一 */
+/* .nrbox .nr ul li .ynr{
+    display: block;
+} */
+.nrbox .nr ul li:hover div{
+    display: block;
+}
+.nrbox .nr ul li div div{
+    width: 755px;
+    border-bottom: 1px solid #dbd4cd;
+}
+.nrbox .nr ul li div div h3{
+    width: 170px;
+    font-size: 28px;
+    color: #f99d33;
+    line-height: 40px;
+    font-weight: normal;
+    padding-bottom: 12px;
+    border-bottom: none;
+}
+.nrbox .nr ul li div div p a{
+    font-size: 14px;
+    color: #333;
+}
+.nrbox .nr ul li div div p a:hover{
+    color: #f99d33;
+}
+.nrbox .nr ul li div dl dt{
+    background: url(../img/qyzerdt.gif) no-repeat 1px center;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #f99d33;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    border-bottom: 1px dashed #dbd4cd;
+}
+.nrbox .nr ul li div dl dd{
+    font-size: 13px;
+    color: #000;
+    margin-top: 22px;
+}
+.nrbox .nr ul li div dl dd p{
+    line-height: 25px;
+}
+.nrbox .nr ul li div dl dd img{
+    display: block;
+    width: 750px;
+    height: 858px;
+    margin-bottom: 50px;
+}
+/* 第一 */
+/* 第二 */
+.nrbox .nr ul li .ernr{
+    width: 755px;
+    position: absolute;
+    display: block;
+    left: 245px;
+    top: -109px;
+    border-bottom: 1px solid #dbd4cd;
+    display: none;
+}
+/* 第三 */
+.nrbox .nr ul li .sanrt{
+    width: 755px;
+    position: absolute;
+    display: block;
+    left: 281px;/* 36px */
+    top: -109px;
+    border-bottom: 1px solid #dbd4cd;
+    display: none;
+}
+/* 第四 */
+.nrbox .nr ul li .sinr{
+    width: 755px;
+    position: absolute;
+    display: block;
+    left: 281px;/* 36px */
+    top: -145px;
+    border-bottom: 1px solid #dbd4cd;
+    display: none;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;/*外边距*/
+    padding: 0;/*内边距*/
+}
+ul li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,table,form{
+    display: block;/*转换块元素*/
+}
+.clear{
+    clear: both;/*清除浮动*/
+}
+a{
+    text-decoration: none;/*去除下划线*/
+    outline: none;/*去外轮廓*/
+}
+img{
+    outline: none;
+    /*display: block;转换块元素*/
+}
+/*清除浮动*/
+.clearfix:after{
+    content: ".";
+    display: block;/*转块元素*/
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;/*清除浮动*/
+    /*display:inline-block 转化行级块元素*/
+}
